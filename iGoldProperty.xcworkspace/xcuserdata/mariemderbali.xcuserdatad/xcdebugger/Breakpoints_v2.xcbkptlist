@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4D4AEE4C-0D91-4006-8526-FBA9C5590BD7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95F0D43B-AC42-4DB7-9A59-B98828E37335"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGoldProperty/ProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6519123B-D018-4D98-A1DC-4486F262AB47"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGoldProperty/ProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "6519123B-D018-4D98-A1DC-4486F262AB47 - 663f52c4000ca34d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.EmptyView, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, SwiftUI.EmptyView&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt;, iGoldProperty.HomeView&gt;, SwiftUI.Text&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt;, iGoldProperty.HomeView&gt;, SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in iGoldProperty.ProfileView.body.getter : some"
+                  moduleName = "iGoldProperty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemderbali/Library/Autosave%20Information/iGoldProperty/iGoldProperty/ProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "2276">
+               </Location>
+               <Location
+                  uuid = "6519123B-D018-4D98-A1DC-4486F262AB47 - d7e10dccb69cda28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #5 () -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt;, iGoldProperty.HomeView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.EmptyView, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, SwiftUI.EmptyView&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt;, iGoldProperty.HomeView&gt;, SwiftUI.Text&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt;, iGoldProperty.HomeView&gt;, SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in iGoldProperty.ProfileView.body.getter : some"
+                  moduleName = "iGoldProperty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemderbali/Library/Autosave%20Information/iGoldProperty/iGoldProperty/ProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED2B11D9-48C3-49DC-9D52-F9D7B88C794A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGoldProperty/HomeView arch/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3057C598-3777-4EC4-A032-2F8E11A0505A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGoldPropertyTests/iGoldPropertyTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE60089E-B695-4E85-AA34-711537561FE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGoldPropertyTests/iGoldPropertyTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "313BBD4B-3D0C-4A51-B722-CF08231F9E06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGoldPropertyTests/iGoldPropertyTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7D26B93-F24E-4818-8E59-4ABEA86C3A17"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGoldPropertyTests/iGoldPropertyTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E684DDD-3A7C-40A5-AEAA-01BF4484B912"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGoldPropertyTests/iGoldPropertyTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE85424B-F4FF-46CA-B01D-4F57E4E18F09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGoldProperty/ViewModel/FirebaseRealEstateManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "markRealEstateAs(realEstate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

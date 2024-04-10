@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00B8EC52ABB921C002BBBB6 /* iGoldPropertyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00B8EC42ABB921C002BBBB6 /* iGoldPropertyApp.swift */; };
+		C00B8EC92ABB921D002BBBB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00B8EC82ABB921D002BBBB6 /* Assets.xcassets */; };
+		C00B8ECC2ABB921D002BBBB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00B8ECB2ABB921D002BBBB6 /* Preview Assets.xcassets */; };
+		C01D58EB2AF00A6D00CABB1F /* FirebaseUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D58EA2AF00A6D00CABB1F /* FirebaseUserManager.swift */; };
+		C01D58F02AF033AA00CABB1F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D58EF2AF033AA00CABB1F /* HomeView.swift */; };
+		C020256A2AF2C7F9002AC957 /* UpdateUserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02025692AF2C7F9002AC957 /* UpdateUserNameView.swift */; };
+		C020256D2AF30360002AC957 /* UpdatePhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C020256C2AF30360002AC957 /* UpdatePhoneNumberView.swift */; };
+		C0300CBF2B29D2BE00195A01 /* FirebaseRealEstateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0300CBE2B29D2BE00195A01 /* FirebaseRealEstateManager.swift */; };
+		C03499E62B24D7B100EC5845 /* SampleRealEstate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03499E52B24D7B100EC5845 /* SampleRealEstate.swift */; };
+		C03520FD2B1CE76500CC9360 /* AddRealEstateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03520FC2B1CE76500CC9360 /* AddRealEstateView.swift */; };
+		C03521012B1CFC3E00CC9360 /* AddRealEstateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03521002B1CFC3D00CC9360 /* AddRealEstateViewModel.swift */; };
+		C03521172B1CFE0A00CC9360 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03521162B1CFE0A00CC9360 /* LocationManager.swift */; };
+		C03EF8802B1A032500BA3A7E /* iGoldPropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03EF87F2B1A032500BA3A7E /* iGoldPropertyTests.swift */; };
+		C03F34822ADFFD87009B1F06 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F34812ADFFD87009B1F06 /* SplashScreenView.swift */; };
+		C03F34922AE0305A009B1F06 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F34912AE0305A009B1F06 /* Model.swift */; };
+		C0402E632B1E924600136570 /* iGoldPropertyIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0402E622B1E924600136570 /* iGoldPropertyIntegrationTests.swift */; };
+		C04248AE2B3765230087B335 /* MyRealEstatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04248AD2B3765230087B335 /* MyRealEstatesView.swift */; };
+		C046E0542B14A4B2006B6E5C /* RealEstateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046E0532B14A4B2006B6E5C /* RealEstateDetailView.swift */; };
+		C06694AF2ADF370300C30073 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06694AE2ADF370300C30073 /* AuthView.swift */; };
+		C0957BC22B38FB9000720276 /* BookMarkedRealEstateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0957BC12B38FB9000720276 /* BookMarkedRealEstateView.swift */; };
+		C0A317782AF1AC1700F95835 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A317772AF1AC1700F95835 /* ProfileView.swift */; };
+		C0A9A57B2B39C31700FFC68C /* MapFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9A57A2B39C31700FFC68C /* MapFilterView.swift */; };
+		C0C6DB3F2AEFD66E0085F66C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0C6DB3E2AEFD66E0085F66C /* GoogleService-Info.plist */; };
+		FE30D5303BED2F58E409ACAB /* Pods_iGoldProperty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DAFB731EC76595F815E0A3 /* Pods_iGoldProperty.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C03EF8822B1A032500BA3A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C00B8EB92ABB921C002BBBB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00B8EC02ABB921C002BBBB6;
+			remoteInfo = iGoldProperty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75DB7E851E6CB5215EA0ED7B /* Pods-iGoldProperty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGoldProperty.debug.xcconfig"; path = "Target Support Files/Pods-iGoldProperty/Pods-iGoldProperty.debug.xcconfig"; sourceTree = "<group>"; };
+		A7DAFB731EC76595F815E0A3 /* Pods_iGoldProperty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iGoldProperty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85981759490C2E33ACF945A /* Pods-iGoldProperty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGoldProperty.release.xcconfig"; path = "Target Support Files/Pods-iGoldProperty/Pods-iGoldProperty.release.xcconfig"; sourceTree = "<group>"; };
+		C00B8EC12ABB921C002BBBB6 /* iGoldProperty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGoldProperty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00B8EC42ABB921C002BBBB6 /* iGoldPropertyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGoldPropertyApp.swift; sourceTree = "<group>"; };
+		C00B8EC82ABB921D002BBBB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C00B8ECB2ABB921D002BBBB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C00B8ECD2ABB921D002BBBB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01D58EA2AF00A6D00CABB1F /* FirebaseUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUserManager.swift; sourceTree = "<group>"; };
+		C01D58EF2AF033AA00CABB1F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C02025692AF2C7F9002AC957 /* UpdateUserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUserNameView.swift; sourceTree = "<group>"; };
+		C020256C2AF30360002AC957 /* UpdatePhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePhoneNumberView.swift; sourceTree = "<group>"; };
+		C0300CBE2B29D2BE00195A01 /* FirebaseRealEstateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRealEstateManager.swift; sourceTree = "<group>"; };
+		C03499E52B24D7B100EC5845 /* SampleRealEstate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRealEstate.swift; sourceTree = "<group>"; };
+		C03520FC2B1CE76500CC9360 /* AddRealEstateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRealEstateView.swift; sourceTree = "<group>"; };
+		C03521002B1CFC3D00CC9360 /* AddRealEstateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRealEstateViewModel.swift; sourceTree = "<group>"; };
+		C03521162B1CFE0A00CC9360 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C03EF87D2B1A032500BA3A7E /* iGoldPropertyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iGoldPropertyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03EF87F2B1A032500BA3A7E /* iGoldPropertyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGoldPropertyTests.swift; sourceTree = "<group>"; };
+		C03EF8812B1A032500BA3A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03F34812ADFFD87009B1F06 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		C03F34912AE0305A009B1F06 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C0402E622B1E924600136570 /* iGoldPropertyIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGoldPropertyIntegrationTests.swift; sourceTree = "<group>"; };
+		C04248AD2B3765230087B335 /* MyRealEstatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRealEstatesView.swift; sourceTree = "<group>"; };
+		C046E0532B14A4B2006B6E5C /* RealEstateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateDetailView.swift; sourceTree = "<group>"; };
+		C06694AE2ADF370300C30073 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		C0957BC12B38FB9000720276 /* BookMarkedRealEstateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkedRealEstateView.swift; sourceTree = "<group>"; };
+		C0A317772AF1AC1700F95835 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C0A9A57A2B39C31700FFC68C /* MapFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFilterView.swift; sourceTree = "<group>"; };
+		C0C6DB3E2AEFD66E0085F66C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00B8EBE2ABB921C002BBBB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE30D5303BED2F58E409ACAB /* Pods_iGoldProperty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03EF87A2B1A032500BA3A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4220EAD7BEB0BDD0325993E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75DB7E851E6CB5215EA0ED7B /* Pods-iGoldProperty.debug.xcconfig */,
+				A85981759490C2E33ACF945A /* Pods-iGoldProperty.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A88696D93D8E5D49219DBC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7DAFB731EC76595F815E0A3 /* Pods_iGoldProperty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C00B8EB82ABB921C002BBBB6 = {
+			isa = PBXGroup;
+			children = (
+				C00B8EC32ABB921C002BBBB6 /* iGoldProperty */,
+				C03EF87E2B1A032500BA3A7E /* iGoldPropertyTests */,
+				C00B8EC22ABB921C002BBBB6 /* Products */,
+				4220EAD7BEB0BDD0325993E3 /* Pods */,
+				7A88696D93D8E5D49219DBC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C00B8EC22ABB921C002BBBB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C00B8EC12ABB921C002BBBB6 /* iGoldProperty.app */,
+				C03EF87D2B1A032500BA3A7E /* iGoldPropertyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C00B8EC32ABB921C002BBBB6 /* iGoldProperty */ = {
+			isa = PBXGroup;
+			children = (
+				C00B8EC42ABB921C002BBBB6 /* iGoldPropertyApp.swift */,
+				C0E204B92AF8EF1200150914 /* Model */,
+				C0E204BA2AF8EF1F00150914 /* View */,
+				C0E204BD2AF8EFB000150914 /* ViewModel */,
+				C00B8EC82ABB921D002BBBB6 /* Assets.xcassets */,
+				C00B8ECD2ABB921D002BBBB6 /* Info.plist */,
+				C0C6DB3E2AEFD66E0085F66C /* GoogleService-Info.plist */,
+				C00B8ECA2ABB921D002BBBB6 /* Preview Content */,
+			);
+			path = iGoldProperty;
+			sourceTree = "<group>";
+		};
+		C00B8ECA2ABB921D002BBBB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C00B8ECB2ABB921D002BBBB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C01D58ED2AF0332100CABB1F /* AuthView arch */ = {
+			isa = PBXGroup;
+			children = (
+				C06694AE2ADF370300C30073 /* AuthView.swift */,
+			);
+			path = "AuthView arch";
+			sourceTree = "<group>";
+		};
+		C01D58EE2AF0337200CABB1F /* HomeView arch */ = {
+			isa = PBXGroup;
+			children = (
+				C01D58EF2AF033AA00CABB1F /* HomeView.swift */,
+				C046E0532B14A4B2006B6E5C /* RealEstateDetailView.swift */,
+				C03520FC2B1CE76500CC9360 /* AddRealEstateView.swift */,
+				C03499E52B24D7B100EC5845 /* SampleRealEstate.swift */,
+				C0A9A57A2B39C31700FFC68C /* MapFilterView.swift */,
+			);
+			path = "HomeView arch";
+			sourceTree = "<group>";
+		};
+		C03EF87E2B1A032500BA3A7E /* iGoldPropertyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C03EF87F2B1A032500BA3A7E /* iGoldPropertyTests.swift */,
+				C0402E622B1E924600136570 /* iGoldPropertyIntegrationTests.swift */,
+				C03EF8812B1A032500BA3A7E /* Info.plist */,
+			);
+			path = iGoldPropertyTests;
+			sourceTree = "<group>";
+		};
+		C0E204B92AF8EF1200150914 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C03F34912AE0305A009B1F06 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0E204BA2AF8EF1F00150914 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C03F34812ADFFD87009B1F06 /* SplashScreenView.swift */,
+				C01D58EE2AF0337200CABB1F /* HomeView arch */,
+				C01D58ED2AF0332100CABB1F /* AuthView arch */,
+				C0E204BC2AF8EF5500150914 /* ProfileView arch */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0E204BC2AF8EF5500150914 /* ProfileView arch */ = {
+			isa = PBXGroup;
+			children = (
+				C02025692AF2C7F9002AC957 /* UpdateUserNameView.swift */,
+				C020256C2AF30360002AC957 /* UpdatePhoneNumberView.swift */,
+				C0A317772AF1AC1700F95835 /* ProfileView.swift */,
+				C04248AD2B3765230087B335 /* MyRealEstatesView.swift */,
+				C0957BC12B38FB9000720276 /* BookMarkedRealEstateView.swift */,
+			);
+			path = "ProfileView arch";
+			sourceTree = "<group>";
+		};
+		C0E204BD2AF8EFB000150914 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C01D58EA2AF00A6D00CABB1F /* FirebaseUserManager.swift */,
+				C03521162B1CFE0A00CC9360 /* LocationManager.swift */,
+				C03521002B1CFC3D00CC9360 /* AddRealEstateViewModel.swift */,
+				C0300CBE2B29D2BE00195A01 /* FirebaseRealEstateManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00B8EC02ABB921C002BBBB6 /* iGoldProperty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00B8ED02ABB921D002BBBB6 /* Build configuration list for PBXNativeTarget "iGoldProperty" */;
+			buildPhases = (
+				6217B55593B30D1AB3C47DFA /* [CP] Check Pods Manifest.lock */,
+				C00B8EBD2ABB921C002BBBB6 /* Sources */,
+				C00B8EBE2ABB921C002BBBB6 /* Frameworks */,
+				C00B8EBF2ABB921C002BBBB6 /* Resources */,
+				AD84A062E4E0186B42435000 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iGoldProperty;
+			packageProductDependencies = (
+			);
+			productName = iGoldProperty;
+			productReference = C00B8EC12ABB921C002BBBB6 /* iGoldProperty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C03EF87C2B1A032500BA3A7E /* iGoldPropertyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03EF8842B1A032500BA3A7E /* Build configuration list for PBXNativeTarget "iGoldPropertyTests" */;
+			buildPhases = (
+				C03EF8792B1A032500BA3A7E /* Sources */,
+				C03EF87A2B1A032500BA3A7E /* Frameworks */,
+				C03EF87B2B1A032500BA3A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C03EF8832B1A032500BA3A7E /* PBXTargetDependency */,
+			);
+			name = iGoldPropertyTests;
+			productName = iGoldPropertyTests;
+			productReference = C03EF87D2B1A032500BA3A7E /* iGoldPropertyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00B8EB92ABB921C002BBBB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C00B8EC02ABB921C002BBBB6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C03EF87C2B1A032500BA3A7E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C00B8EC02ABB921C002BBBB6;
+					};
+				};
+			};
+			buildConfigurationList = C00B8EBC2ABB921C002BBBB6 /* Build configuration list for PBXProject "iGoldProperty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C00B8EB82ABB921C002BBBB6;
+			packageReferences = (
+			);
+			productRefGroup = C00B8EC22ABB921C002BBBB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00B8EC02ABB921C002BBBB6 /* iGoldProperty */,
+				C03EF87C2B1A032500BA3A7E /* iGoldPropertyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00B8EBF2ABB921C002BBBB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00B8ECC2ABB921D002BBBB6 /* Preview Assets.xcassets in Resources */,
+				C00B8EC92ABB921D002BBBB6 /* Assets.xcassets in Resources */,
+				C0C6DB3F2AEFD66E0085F66C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03EF87B2B1A032500BA3A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6217B55593B30D1AB3C47DFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iGoldProperty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD84A062E4E0186B42435000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iGoldProperty/Pods-iGoldProperty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iGoldProperty/Pods-iGoldProperty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iGoldProperty/Pods-iGoldProperty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00B8EBD2ABB921C002BBBB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04248AE2B3765230087B335 /* MyRealEstatesView.swift in Sources */,
+				C0A9A57B2B39C31700FFC68C /* MapFilterView.swift in Sources */,
+				C01D58EB2AF00A6D00CABB1F /* FirebaseUserManager.swift in Sources */,
+				C020256A2AF2C7F9002AC957 /* UpdateUserNameView.swift in Sources */,
+				C00B8EC52ABB921C002BBBB6 /* iGoldPropertyApp.swift in Sources */,
+				C06694AF2ADF370300C30073 /* AuthView.swift in Sources */,
+				C01D58F02AF033AA00CABB1F /* HomeView.swift in Sources */,
+				C046E0542B14A4B2006B6E5C /* RealEstateDetailView.swift in Sources */,
+				C03F34822ADFFD87009B1F06 /* SplashScreenView.swift in Sources */,
+				C03520FD2B1CE76500CC9360 /* AddRealEstateView.swift in Sources */,
+				C0300CBF2B29D2BE00195A01 /* FirebaseRealEstateManager.swift in Sources */,
+				C03521012B1CFC3E00CC9360 /* AddRealEstateViewModel.swift in Sources */,
+				C0A317782AF1AC1700F95835 /* ProfileView.swift in Sources */,
+				C03F34922AE0305A009B1F06 /* Model.swift in Sources */,
+				C0957BC22B38FB9000720276 /* BookMarkedRealEstateView.swift in Sources */,
+				C03499E62B24D7B100EC5845 /* SampleRealEstate.swift in Sources */,
+				C020256D2AF30360002AC957 /* UpdatePhoneNumberView.swift in Sources */,
+				C03521172B1CFE0A00CC9360 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03EF8792B1A032500BA3A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03EF8802B1A032500BA3A7E /* iGoldPropertyTests.swift in Sources */,
+				C0402E632B1E924600136570 /* iGoldPropertyIntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C03EF8832B1A032500BA3A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C00B8EC02ABB921C002BBBB6 /* iGoldProperty */;
+			targetProxy = C03EF8822B1A032500BA3A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C00B8ECE2ABB921D002BBBB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C00B8ECF2ABB921D002BBBB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C00B8ED12ABB921D002BBBB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75DB7E851E6CB5215EA0ED7B /* Pods-iGoldProperty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iGoldProperty/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iGoldProperty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MD.iGoldProperty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C00B8ED22ABB921D002BBBB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A85981759490C2E33ACF945A /* Pods-iGoldProperty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iGoldProperty/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iGoldProperty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MD.iGoldProperty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C03EF8852B1A032500BA3A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/Firebase/CoreOnly/Sources";
+				INFOPLIST_FILE = iGoldPropertyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MD.iGoldPropertyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iGoldProperty.app/iGoldProperty";
+			};
+			name = Debug;
+		};
+		C03EF8862B1A032500BA3A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/Firebase/CoreOnly/Sources";
+				INFOPLIST_FILE = iGoldPropertyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MD.iGoldPropertyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iGoldProperty.app/iGoldProperty";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00B8EBC2ABB921C002BBBB6 /* Build configuration list for PBXProject "iGoldProperty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00B8ECE2ABB921D002BBBB6 /* Debug */,
+				C00B8ECF2ABB921D002BBBB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00B8ED02ABB921D002BBBB6 /* Build configuration list for PBXNativeTarget "iGoldProperty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00B8ED12ABB921D002BBBB6 /* Debug */,
+				C00B8ED22ABB921D002BBBB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03EF8842B1A032500BA3A7E /* Build configuration list for PBXNativeTarget "iGoldPropertyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03EF8852B1A032500BA3A7E /* Debug */,
+				C03EF8862B1A032500BA3A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C00B8EB92ABB921C002BBBB6 /* Project object */;
+}
