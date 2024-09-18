@@ -64,7 +64,7 @@ struct MyRealEstatesView: View {
                                     Image(realEstate.saleCategory.imageName)
                                         .resizable()
                                         .scaledToFill()
-                                        .frame(width: 23, height: 8)
+                                        .frame(width: 23, height: 8).padding(.horizontal, 8)
                                     
                                     Text(realEstate.saleCategory.title)
                                 }
@@ -199,13 +199,13 @@ struct MyRealEstatesView: View {
                                         Image(saleCategory.imageName)
                                             .resizable()
                                             .scaledToFill()
-                                            .frame(width: 23, height: 8)
+                                            .frame(width: 23, height: 8).padding(.horizontal, 8)
                                     }else {
                                         Text("Offer for \(saleCategory.title)")
                                         Image(saleCategory.imageName)
                                             .resizable()
                                             .scaledToFill()
-                                            .frame(width: 23, height: 8)
+                                            .frame(width: 23, height: 8).padding(.horizontal, 8)
                                     }
                                 case .rent:
                                     if realEstate.isAvailable {
@@ -213,13 +213,13 @@ struct MyRealEstatesView: View {
                                         Image(saleCategory.imageName)
                                             .resizable()
                                             .scaledToFill()
-                                            .frame(width: 23, height: 8)
+                                            .frame(width: 23, height: 8).padding(.horizontal, 8)
                                     }else {
                                         Text("Offer for \(saleCategory.title)")
                                         Image(saleCategory.imageName)
                                             .resizable()
                                             .scaledToFill()
-                                            .frame(width: 23, height: 8)
+                                            .frame(width: 23, height: 8).padding(.horizontal, 8)
                                     }
                                 case .investment:
                                     if realEstate.isAvailable {
@@ -227,13 +227,13 @@ struct MyRealEstatesView: View {
                                         Image(saleCategory.imageName)
                                             .resizable()
                                             .scaledToFill()
-                                            .frame(width: 23, height: 8)
+                                            .frame(width: 23, height: 8).padding(.horizontal, 8)
                                     }else {
                                         Text("Offer for \(saleCategory.title)")
                                         Image(saleCategory.imageName)
                                             .resizable()
                                             .scaledToFill()
-                                            .frame(width: 23, height: 8)
+                                            .frame(width: 23, height: 8).padding(.horizontal, 8)
                                     }
                                 }
                             }

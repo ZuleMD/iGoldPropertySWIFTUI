@@ -23,13 +23,13 @@
 		C03F34822ADFFD87009B1F06 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F34812ADFFD87009B1F06 /* SplashScreenView.swift */; };
 		C03F34922AE0305A009B1F06 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F34912AE0305A009B1F06 /* Model.swift */; };
 		C0402E632B1E924600136570 /* iGoldPropertyIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0402E622B1E924600136570 /* iGoldPropertyIntegrationTests.swift */; };
+		C040AD632C9B097200FED879 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C040AD622C9B097100FED879 /* GoogleService-Info.plist */; };
 		C04248AE2B3765230087B335 /* MyRealEstatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04248AD2B3765230087B335 /* MyRealEstatesView.swift */; };
 		C046E0542B14A4B2006B6E5C /* RealEstateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046E0532B14A4B2006B6E5C /* RealEstateDetailView.swift */; };
 		C06694AF2ADF370300C30073 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06694AE2ADF370300C30073 /* AuthView.swift */; };
 		C0957BC22B38FB9000720276 /* BookMarkedRealEstateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0957BC12B38FB9000720276 /* BookMarkedRealEstateView.swift */; };
 		C0A317782AF1AC1700F95835 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A317772AF1AC1700F95835 /* ProfileView.swift */; };
 		C0A9A57B2B39C31700FFC68C /* MapFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9A57A2B39C31700FFC68C /* MapFilterView.swift */; };
-		C0C6DB3F2AEFD66E0085F66C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0C6DB3E2AEFD66E0085F66C /* GoogleService-Info.plist */; };
 		FE30D5303BED2F58E409ACAB /* Pods_iGoldProperty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DAFB731EC76595F815E0A3 /* Pods_iGoldProperty.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,13 +67,13 @@
 		C03F34812ADFFD87009B1F06 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		C03F34912AE0305A009B1F06 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C0402E622B1E924600136570 /* iGoldPropertyIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGoldPropertyIntegrationTests.swift; sourceTree = "<group>"; };
+		C040AD622C9B097100FED879 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C04248AD2B3765230087B335 /* MyRealEstatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRealEstatesView.swift; sourceTree = "<group>"; };
 		C046E0532B14A4B2006B6E5C /* RealEstateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateDetailView.swift; sourceTree = "<group>"; };
 		C06694AE2ADF370300C30073 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		C0957BC12B38FB9000720276 /* BookMarkedRealEstateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkedRealEstateView.swift; sourceTree = "<group>"; };
 		C0A317772AF1AC1700F95835 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C0A9A57A2B39C31700FFC68C /* MapFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFilterView.swift; sourceTree = "<group>"; };
-		C0C6DB3E2AEFD66E0085F66C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 				C0E204BD2AF8EFB000150914 /* ViewModel */,
 				C00B8EC82ABB921D002BBBB6 /* Assets.xcassets */,
 				C00B8ECD2ABB921D002BBBB6 /* Info.plist */,
-				C0C6DB3E2AEFD66E0085F66C /* GoogleService-Info.plist */,
+				C040AD622C9B097100FED879 /* GoogleService-Info.plist */,
 				C00B8ECA2ABB921D002BBBB6 /* Preview Content */,
 			);
 			path = iGoldProperty;
@@ -314,8 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C00B8ECC2ABB921D002BBBB6 /* Preview Assets.xcassets in Resources */,
+				C040AD632C9B097200FED879 /* GoogleService-Info.plist in Resources */,
 				C00B8EC92ABB921D002BBBB6 /* Assets.xcassets in Resources */,
-				C0C6DB3F2AEFD66E0085F66C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
