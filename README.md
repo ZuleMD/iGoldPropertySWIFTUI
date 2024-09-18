@@ -1,3 +1,4 @@
+## App Screenshots
 <img src="https://github.com/user-attachments/assets/45565b33-b656-4331-ac74-4052aa26ba73" alt="Auth Screen 1" width="200"/>
 <img src="https://github.com/user-attachments/assets/9638ac85-ddcd-437b-a208-eed7c2f7aabb" alt="Auth Screen 2" width="200"/>
 <img src="https://github.com/user-attachments/assets/7d111d75-7243-419b-b6cc-dbf9835c0283" alt="Auth Screen 3" width="200"/>
