@@ -1,3 +1,3 @@
 ## App Screenshots
-<img src="https://github.com/user-attachments/assets/a0433056-14e9-4172-b1da-9810576e627b"  width="400"/>
+<img src="https://github.com/user-attachments/assets/d348b214-bf68-4fa2-a956-c5953cde9a89"  width="800"/>
  
